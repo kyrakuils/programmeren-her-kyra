@@ -1,0 +1,106 @@
+/* body css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    background-color: black;
+}
+
+/* header css */
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    letter-spacing: 16px;
+    margin-left: 70px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.626);
+}
+
+.intro {
+    color: white;
+    line-height: 23px;
+    margin-left: 70px;
+    width: 90%;
+}
+
+/* main css */
+
+.album-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.album-cover img {
+    width: 15%;
+}
+
+.vinyl-destin-conrad {
+    float: right;
+    margin-top: 200px;
+    margin-right: 300px;
+}
+
+.play-button {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 797px;
+    padding: 20px 30px;
+    font-size: 20px;
+    background: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.play-button:hover {
+    background-color: rgba(255, 0, 0, 0.626);
+}
+
+.text {
+    color: white;
+    margin-top: 40px;
+    margin-left: 430px;
+    font-size: 16px;
+    text-align: center;
+    width: 40%;
+    display: block; 
+}
+
+.lyrics-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 525px;
+    margin-top: 30px;
+}
+
+.lyrics-button:hover {
+    background-color: rgba(255, 0, 0, 0.626);
+}
+
+.lyrics {
+    display: none;
+}
+
+/* footer css */
+
+.publish {
+    text-align: center;
+    margin-top: 240px;
+    color: rgba(255, 0, 0, 0.626);
+    font-size: 15px;
+    position: sticky;
+}
